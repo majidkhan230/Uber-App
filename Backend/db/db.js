@@ -8,3 +8,6 @@ async function connectToDb() {
     console.error({ message: "failed to connect to db", error: error.message });
   }
 }
+
+
+export default connectToDb;
